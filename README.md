@@ -29,5 +29,4 @@ Xorg server. You may also need to run command `xhost +` on the host.
 
     $ docker run -it --name teamviewer \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        -e DISPLAY=unix$DISPLAY \
         bbinet/teamviewer
