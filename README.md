@@ -13,9 +13,14 @@ To create the image `bbinet/teamviewer`, execute the following command in the
 
     docker build -t bbinet/teamviewer .
 
+
+!!!下面的bbinet要改！
+https://blog.csdn.net/Labner/article/details/95602240push
+
+我的改后是
 You can now push the new image to the public registry:
     
-    docker push bbinet/teamviewer
+    docker push goodpen/teamviewer
 
 
 Run
